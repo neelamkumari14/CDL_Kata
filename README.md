@@ -29,15 +29,41 @@ The solution should allow for items to input at the command line, and allow for 
 
 * Calculate the total price of cart.
 
-Example :
-Input1: A,B,A,C,B,A,D
-Output: 210
+###### Example :
+Input1:
 
-input2: A,A
-Output: 100
+    Item  
+    ----
+    A     
+    B     
+    A   
+    C  
+    B
+    A
+    D
+    !!
+Output1: 210
 
-input3: A,B,A,B,A
-Output: 175
+Input2:
+
+    Item  
+    ----
+    A     
+    A  
+    !!
+Output2: 100
+
+Input3:
+
+    Item  
+    ----
+    A     
+    B
+    A
+    B
+    A
+    !!
+Output3: 175
 
 
 ## **Run locally:**
